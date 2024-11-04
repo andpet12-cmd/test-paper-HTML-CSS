@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1440px;
+    height: 5393px;
+    background: #FAF4F2;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 40px;
+    height: 27px;
+    color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 36px 120px 49px 22px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile-info h1 {
+
+    width: 475px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 155% */
+    margin: 49px 167px 7px 182px;
+}
+
+.profile-info p {
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 7px 34px 54px 182px;
+}
+
+.profile img {
+    width: 406px;
+    height: 406px;
+    margin: 100px 176px 188px 167px;
+}
+
+.profile-info .social-media {
+    width: 240px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 54px 436px 25px 182px;
+
+}
+
+.buttons {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 184px;
+    gap: 30px;
+}
+
+.buttons button {
+    width: 151px;
+    height: 55px;
+    background-color: #ff477e;
+    color: white;
+    border: none;
+    padding: 14px 13px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttons button.download {
+    width: 153px;
+    height: 55px;
+    background-color: #fff;
+    color: #ff477e;
+    padding: 14px 15px;
+    border: 1px solid #ff477e;
+}
+
+.projects-section {
+    width: 1140px;
+    height: 519px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background: #FF7315;
+    margin: 62px 75px;
+
+}
+
+.projects-section img {
+    width: 430px;
+    height: 329px;
+    margin: 31px 32px 34px 32px;
+
+}
+
+.projects-section h2 {
+    color: #F9F9F9;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 86.111% */
+
+}
+
+.projects-section h3 {
+    color: #F9F9F9;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 62px;
+
+}
+
+.projects-section p {
+    color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px; /* 187.5% */
+
+}
+
+.why-hire-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.why-hire-me-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    margin-left: 150px;
+}
+
+.why-hire-me h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px; /* 129.167% */
+
+}
+
+.why-hire-me h3 {
+    color: #222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-left: 20px;
+}
+
+.why-hire-me p {
+    flex-direction: column;
+    width: 240px;
+    height: 90px;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-top: 51px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+.icon div:nth-child(1) {
+    width: 98px;
+    height: 98px;
+}
+
+.icon:nth-child(1) div:nth-child(1) {
+    width: 98px;
+    height: 98px;
+
+}
+
+.icon:nth-child(2) div:nth-child(1) {
+    background: #2222221A;
+
+}
+
+.icon:nth-child(3) div:nth-child(1) {
+
+}
+
+.icon:nth-child(4) div:nth-child(1) {
+
+}
+
+.icons .icon {
+    text-align: center;
+    width: 20%;
+}
+
+.icons .icon img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.portfolio {
+    margin: 40px 0;
+
+}
+
+
+.portfolio h2 {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin: 125px 1087px 64px 150px;
+}
+
+
+.portfolio-items {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    margin: 64px 231px 125px 231px;
+}
+
+.portfolio-items img {
+    width: 310px;
+    height: 300px;
+
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 643px;
+    background: #FF7315;
+    margin: 125px 0;
+}
+
+.content-section h2 {
+    width: 609px;
+    color: #F9F9F9;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+
+}
+
+.price-plans {
+    margin: 40px 0;
+}
+
+.price-plans h2 {
+    color:#222;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%; /* 59.328px */
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    margin: 125px 588px 64px 587px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+}
+
+.plan button {
+    background-color: #ff7746;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-section {
+    margin: 40px 0;
+}
+
+.blog-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 23%;
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
